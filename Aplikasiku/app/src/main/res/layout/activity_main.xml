@@ -27,7 +27,7 @@
         android:layout_marginEnd="8dp"
         android:fontFamily="@font/montserrat_semi_bold"
         android:textSize="20sp"
-        android:text="Ke Dokter Apps"
+        android:text="Ke-Dokter Apps"
         android:textColor="#0A0909"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
