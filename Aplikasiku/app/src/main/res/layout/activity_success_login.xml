@@ -4,6 +4,50 @@
 	xmlns:tools="http://schemas.android.com/tools"
 	android:layout_width="match_parent"
 	android:layout_height="match_parent"
+	android:background="#FFFFFF"
 	tools:context=".SuccessLoginActivity">
+
+
+	<androidx.constraintlayout.widget.Guideline
+		android:id="@+id/guideline2"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:orientation="horizontal"
+		app:layout_constraintGuide_percent="0.5" />
+
+	<ImageView
+		android:id="@+id/success_icon"
+		android:layout_width="159dp"
+		android:layout_height="141dp"
+		android:layout_marginBottom="8dp"
+		android:src="@drawable/sthethoscope"
+		app:layout_constraintBottom_toTopOf="@+id/txtsuccess"
+		app:layout_constraintLeft_toLeftOf="parent"
+		app:layout_constraintRight_toRightOf="parent" />
+
+	<TextView
+		android:id="@+id/txtsuccess"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:fontFamily="@font/montserrat_semi_bold"
+		android:text="Anda Berhasil Login!"
+		android:textSize="32sp"
+		app:layout_constraintLeft_toLeftOf="parent"
+		app:layout_constraintRight_toRightOf="parent"
+		app:layout_constraintTop_toTopOf="@+id/guideline2"/>
+
+	<TextView
+		android:id="@+id/subtxt_success"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_marginLeft="24dp"
+		android:layout_marginTop="16dp"
+		android:layout_marginRight="24dp"
+		android:text="Selamat datang di Ke-Dokter Apps"
+		android:textAlignment="center"
+		android:textSize="16sp"
+		app:layout_constraintLeft_toLeftOf="parent"
+		app:layout_constraintRight_toRightOf="parent"
+		app:layout_constraintTop_toBottomOf="@+id/txtsuccess"/>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
